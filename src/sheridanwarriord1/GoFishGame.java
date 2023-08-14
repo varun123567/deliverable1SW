@@ -1,8 +1,6 @@
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
 class GoFishGame {
     private List<Player> players;
     private List<String> deck;
@@ -101,7 +99,6 @@ class GoFishGame {
         if (opponent.hasCard(rank)) {
             System.out.println(opponent.getName() + " has the card!");
 
-            // Move all matching cards from the opponent's hand to the current player's hand
             List<String> matchingCards = new ArrayList<>();
             for (String card : opponent.getHand()) {
                 if (card.startsWith(rank)) {

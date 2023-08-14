@@ -1,15 +1,11 @@
-
 /**
- *
- * @author varun
- *  @author kundan kumar
- *  @author bikramjit singh
- *  @author irtiza nazir
+ * A simple implementation of the Go Fish card game.
+ * Authors: Varun, Kundan Kumar, Bikramjit Singh, Irtiza Nazir
  */
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
 
 public class GoFish {
     public static void main(String[] args) {
@@ -31,4 +27,3 @@ public class GoFish {
         game.start();
     }
 }
-
